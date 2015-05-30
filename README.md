@@ -7,7 +7,7 @@ Since **IntelliJ IDEA** doesn't distinguish between _archetype catalog_ and _arc
 1. `File > New > Project... > Maven > Maven Project`  
 2. Click `Next` on the first screen of the _New project_ wizard  
 3. Select `Configure... > Add Remote Catalog...`  
-4. Enter the following URL in the `Catalog file` field: https://github.com/mbonaci/spark-archetype-scala/raw/master/archetype-catalog.xml  
+4. Enter the following URL in the `Catalog file` field: https://github.com/prateek/spark-archetype-scala/raw/master/archetype-catalog.xml  
       Enter `Spark Scala Archetype` in the `Description` field  
 5. After you close the dialog, choose the `Spark Scala Archetype` catalog in the `Catalog` dropdown list
 6. In the next dialog enter you project details and confirm with `Finish`
@@ -23,8 +23,8 @@ Since **IntelliJ IDEA** doesn't distinguish between _archetype catalog_ and _arc
 
 ```sh
 mvn archetype:generate \
-  -DarchetypeCatalog=https://github.com/mbonaci/spark-archetype-scala/raw/master/archetype-catalog.xml \
-  -DarchetypeRepository=https://github.com/mbonaci/spark-archetype-scala/raw/master
+  -DarchetypeCatalog=https://github.com/prateek/spark-archetype-scala/raw/master/archetype-catalog.xml \
+  -DarchetypeRepository=https://github.com/prateek/spark-archetype-scala/raw/master
 ```
 
 
@@ -35,8 +35,8 @@ mvn archetype:generate \
 
 ```sh
 mvn archetype:generate -B \
-    -DarchetypeCatalog=https://github.com/mbonaci/spark-archetype-scala/raw/master/archetype-catalog.xml \
-    -DarchetypeRepository=https://github.com/mbonaci/spark-archetype-scala/raw/master \
+    -DarchetypeCatalog=https://github.com/prateek/spark-archetype-scala/raw/master/archetype-catalog.xml \
+    -DarchetypeRepository=https://github.com/prateek/spark-archetype-scala/raw/master \
     -DarchetypeGroupId=org.sia \
     -DarchetypeArtifactId=spark-archetype-scala \
     -DarchetypeVersion=0.9 \
@@ -45,7 +45,7 @@ mvn archetype:generate -B \
 For your convenience, here's the copy/paste friendly version (customize your new project by changing the last 4 params):
 
 ```
-mvn archetype:generate -B -DarchetypeCatalog=https://github.com/mbonaci/spark-archetype-scala/raw/master/archetype-catalog.xml -DarchetypeRepository=https://github.com/mbonaci/spark-archetype-scala/raw/master -DarchetypeGroupId=org.sia -DarchetypeArtifactId=spark-archetype-scala -DarchetypeVersion=0.9 -DgroupId=org.sijaset -DartifactId=sija -Dversion=0.1 -Dpackage=org.sijaset
+mvn archetype:generate -B -DarchetypeCatalog=https://github.com/prateek/spark-archetype-scala/raw/master/archetype-catalog.xml -DarchetypeRepository=https://github.com/prateek/spark-archetype-scala/raw/master -DarchetypeGroupId=org.sia -DarchetypeArtifactId=spark-archetype-scala -DarchetypeVersion=0.9 -DgroupId=org.sijaset -DartifactId=sija -Dversion=0.1 -Dpackage=org.sijaset
 ```
 
  * ***Generated project example usage*** *(run* `mvn scala:help` *for the full list of commands):*
