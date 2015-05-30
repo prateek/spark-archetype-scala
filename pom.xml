@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
@@ -9,11 +10,11 @@
 
   <groupId>org.sia</groupId>
   <artifactId>spark-archetype-scala</artifactId>
-  <version>0.9</version>
+  <version>0.10</version>
   <packaging>maven-archetype</packaging>
 
   <name>Scala Spark Maven archetype</name>
-  <url>http://github.com/mbonaci/${project.artifactId}</url>
+  <url>http://github.com/prateek/${project.artifactId}</url>
   <inceptionYear>2015</inceptionYear>
   <description>Archetype used to scaffold a new Spark Scala project.</description>
 
@@ -25,14 +26,14 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/mbonaci/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:mbonaci/${project.artifactId}.git</developerConnection>
-    <url>http://github.com/mbonaci/${project.artifactId}/</url>
+    <connection>scm:git:git://github.com/prateek/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:prateek/${project.artifactId}.git</developerConnection>
+    <url>http://github.com/prateek/${project.artifactId}/</url>
   </scm>
 
   <issueManagement>
     <system>github</system>
-    <url>http://github.com/mbonaci/${project.artifactId}/issues#issue/</url>
+    <url>http://github.com/prateek/${project.artifactId}/issues#issue/</url>
   </issueManagement>
 
   <mailingLists>
@@ -47,6 +48,10 @@
     <developer>
       <name>Marko Bonaci</name>
       <timezone>Europe/Zagreb</timezone>
+    </developer>
+    <developer>
+      <name>Prateek Rungta</name>
+      <timezone>Americas/Eastern</timezone>
     </developer>
   </developers>
 

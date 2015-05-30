@@ -3,10 +3,10 @@
   <groupId>org.sia</groupId>
   <artifactId>spark-archetype-scala</artifactId>
   <versioning>
-    <release>0.9</release>
+    <release>0.10</release>
     <versions>
-      <version>0.9</version>
+      <version>0.10</version>
     </versions>
-    <lastUpdated>20140329153455</lastUpdated>
+    <lastUpdated>20150530234903</lastUpdated>
   </versioning>
 </metadata>

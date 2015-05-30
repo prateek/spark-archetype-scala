@@ -6,7 +6,7 @@
     <archetype>
       <groupId>org.sia</groupId>
       <artifactId>spark-archetype-scala</artifactId>
-      <version>0.9</version>
+      <version>0.10</version>
       <description>Maven archetype used to bootstrap a new Spark/Scala project.</description>
     </archetype>
   </archetypes>

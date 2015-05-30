@@ -1,6 +1,9 @@
 
 ### Changes:
 
+### 0.9
+ * upgrade to CDH branch of Spark: 1.3.0-cdh5.4.2
+
 ### 0.8
  * upgrade to Spark-1.3.1
  * active version only the latest from now on
